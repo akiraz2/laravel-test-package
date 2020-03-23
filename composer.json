@@ -1,0 +1,16 @@
+{
+  "name": "akiraz/laravel-test-package",
+  "description": "Test Job for some fintech company:-)",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "psr/http-client": "^1.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "akiraz\\LaravelTestPackage\\TestServiceProvider"
+      ]
+    }
+  }
+}
